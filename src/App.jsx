@@ -8,7 +8,7 @@ const App = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault()
-    let res = await axios.post('http://localhost:3000/register', {
+    let res = await axios.post('https://server-g79k.onrender.com/register', {
       phoneNumber,
       email,
       password
